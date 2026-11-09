@@ -11,11 +11,11 @@ nav b{margin-right:auto}li{margin:.3em 0}footer{margin-top:48px;color:var(--mute
 <li>Chats, photos you send in a chat, character profiles, companion memory and settings.</li>
 <li>Downloaded language models.</li>
 </ul>
-<p>All of this stays in the app's storage on your phone. Cloud backup of app data is disabled. The developer cannot see or receive this data.</p>
+<p>All of this stays in the app's storage on your phone. On Android, cloud backup of app data is disabled. On iPhone, chats, photos and models are excluded from backups, while the app's settings (including your name, your “Shared memory” — what you told all characters about yourself — and your Brave key, if you entered one) may be included in your iCloud or computer backup along with the rest of your phone's data. The developer cannot see or receive this data.</p>
 <h2>When the app uses the internet</h2>
 <ul>
 <li><strong>Model downloads.</strong> Models are downloaded from Hugging Face (huggingface.co). Hugging Face sees your IP address and which file you download. The Hugging Face privacy policy applies.</li>
-<li><strong>Web search</strong> (only if you turn this tool on for a chat). The search query written by the model is sent to DuckDuckGo, Wikipedia or Brave Search (if you entered your own Brave key). These services see the query and your IP address. Your chat as a whole is not sent.</li>
+<li><strong>Web search</strong> (only if you turn this tool on for a chat). The search query — built from your message or written by the model — is sent to DuckDuckGo, Wikipedia or Brave Search (if you entered your own Brave key). If you ask about the weather, the city name is sent to Open-Meteo (open-meteo.com). These services see the query and your IP address. Your chat as a whole is not sent.</li>
 <li><strong>Voice input</strong> uses your phone's system speech recognition service (for example, Google on Android or Apple on iPhone). Audio may be processed by that service under its own terms. If you don't use the microphone, no audio is recorded.</li>
 </ul>
 <h2>Permissions</h2>
@@ -24,7 +24,6 @@ nav b{margin-right:auto}li{margin:.3em 0}footer{margin-top:48px;color:var(--mute
 <li><strong>Notifications</strong> — to tell you about new replies and to show model download progress.</li>
 <li><strong>Photos</strong> are picked through the system picker; the app only receives the files you choose.</li>
 <li><strong>Camera</strong> — only to take a photo for a chat, when you tap the button.</li>
-<li><strong>Alarms &amp; reminders</strong> (Android) — so a character can reply or write first while the app is closed. This permission gives the app no data.</li>
 </ul>
 <h2>Reports and emails to the developer</h2>
 <p>When you report a reply or contact the developer, your email app opens with a prepared message. It is sent only if you send it yourself, and it contains only what you see in the draft (for example, the reply text and the model name). Such emails are used only to review the report and answer you.</p>
